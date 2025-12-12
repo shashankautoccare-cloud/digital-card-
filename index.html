@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Digital Visiting Card</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="card">
+    <img src="{{ emp.photo }}" class="photo">
+
+    <h2>{{ emp.name }}</h2>
+    <p>{{ emp.designation }}</p>
+
+    <div class="info">
+        <p>📞 {{ emp.phone }}</p>
+        <p>✉️ {{ emp.email }}</p>
+    </div>
+</div>
+
+</body>
+</html>
